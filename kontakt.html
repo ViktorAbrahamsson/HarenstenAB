@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Härensten AB</title>
+        
+        <meta charset="utf-8"> <!--Rätt tecken för svenska-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> <!--Anpassat för mobiltelefoner-->
+        
+        <meta name="description" content="">
+        <meta name="keywords" content="Härensten AB,Göran Ericsson,Målskog">
+        <meta name="author" content="Viktor Abrahamsson">
+        
+        <link rel="icon" href="images/harenstenab_icon.ico"> <!--Webbicon-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <!--Font: Roboto-->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> <!--Bootstrap 4.1: CSS-->
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> <!--Bootstrap 4.1-->
+        
+        <link rel="stylesheet" href="main.css"> <!--Main.css-->
+    </head>
+    <body onload="init();"> <!--Load bootstrap 4.1-->
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff; border-bottom: 5px solid #f2b632;"> <!--Nav: Background, boarder-->
+          <a class="navbar-brand ml-5" id="nav_title" href="index.html">
+              <img src="images/harenstenab_logga.jpg" class="loggo_size" alt="Logga">
+          </a> <!--Nav: Title-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--Nav: Listitems-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Hem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="om.html">Om oss</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vad-gor-vi.html">Vad vi gör</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produkter.html">Produkter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="kontakt.html">Kontakt<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+        <!--Navbar-->
+        
+        <!--Banner-->
+        <div class="banner_kontakt">
+            <div class="banner_text">
+                <p><em class="banner_text_title">Kontakt</em></p>
+            </div>
+        </div>
+        <!--Banner-->
+        
+        <!--Kontakt-->
+        <div id="kontakt_content">
+            <div class="kontakt_arbetare">
+                <h1 class="h1_title" id="kontakt_title">Anställda hos Härensten AB</h1>
+                <div class="arbetare">
+                    <div class="arbetare_image">
+                        <img class="arbetare_image_style" alt="Bild" src="images/kontakt/goran_v2.jpg">
+                    </div>
+                    <p><em class="arbetare_titel">Göran Ericsson</em></p>
+                    <p class="arbetare_roll">VD/Produktion</p>
+                    <p class="arbetare_roll">Leveranser/Kvalitet</p>
+
+                    
+                    <address>
+                        <em class="kontakt_email"><a href="mailto:goran@harensten.se" class="arbetare_kontakt">goran@harensten.se</a></em><br>
+                        <a href="tel:+46722492712" class="arbetare_kontakt arbetare_tel">072-249 27 12</a>
+                    </address>
+                </div>
+                
+                <div class="arbetare">
+                    <div class="arbetare_image">
+                        <img class="arbetare_image_style" alt="Bild" src="images/kontakt/marita_v2.jpg">
+                    </div>
+                    <p><em class="arbetare_titel">Marita Ericsson</em></p>
+                    <p class="arbetare_roll">Ekonomi</p>
+                    <p class="arbetare_roll">Ordermotagning</p>
+                    
+                    <address>
+                        <em class="kontakt_email"><a href="mailto:marita@harensten.se" class="arbetare_kontakt">marita@harensten.se</a></em><br>
+                        <a href="tel:+46738305937" class="arbetare_kontakt arbetare_tel">073-830 59 37</a>
+                    </address>
+                </div>
+                
+                <!-- "Potensiell ny arbetare card"
+                <div class="arbetare">
+                    <div class="arbetare_image">
+                        <img class="arbetare_image_style" alt="Bild" src="http://via.placeholder.com/180x220">
+                    </div>
+                    <p><em class="arbetare_titel">Person Personson</em></p>
+                    <p>Lager</p>
+                    
+                    <address>
+                        <em><a href="mailto:lager@harensten.se" class="arbetare_kontakt">lager@harensten.se</a></em><br>
+                        <a href="tel:0722492712" class="arbetare_kontakt arbetare_tel" >072-249 27 12</a>
+                    </address>
+                </div>
+                -->
+            </div>
+            
+            
+            
+            <div class="Kontakta_oss">
+                <h1 class="h1_title kontakta_oss_desktop kontakta_oss_mobile">Kontakta oss</h1>
+                <p class="kontakta_oss_desktop kontakta_oss_mobile">Härensten AB</p>
+                <p class="kontakta_oss_desktop kontakta_oss_mobile">Målskog 18,</p>
+                <p class="kontakta_oss_desktop kontakta_oss_mobile">335 91 Gnosjö</p>
+                <p class="kontakta_oss_desktop kontakta_oss_mobile">Tel: <a href="tel:0722492712"><em class="arbetare_tel">072-249 27 12</em></a></p>
+                <p class="kontakta_oss_desktop kontakta_oss_mobile">Email: <a href="mailto:info@harensten.se"><em>info@harensten.se</em></a></p>
+                
+                <form id="form_style" action="mailto:info@harensten.se" method="post" enctype="text/plain">
+                    <input id="form_namn" class="form-control" type="text" placeholder=" Namn" name="name">
+                    <input id="form_email" class="form-control" type="email" placeholder=" Email" name="email">
+                    <input id="form_subject" class="form-control" type="text" placeholder=" Ämne" name="subject">
+                    <textarea id="form_message" class="form-control" placeholder=" Meddelande" name="meddelande"></textarea>
+                    <button id="form_submit" class="form-control" type="submit">Skicka</button>
+                </form>
+            </div>
+            
+            <div class="center_x">
+                <div class="google_maps landscape_hidden_images"> <!--Googlemaps iFrame: Mobil variant-->
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="370" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=h%C3%A4rensten%20ab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de">webdesign-muenchen-pb.de</a></div><style>.mapouter{text-align:right;height:500px;width:370px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:370px;}</style></div>
+                </div>
+
+                <div class="google_maps mobile_hidden_images"> <!--iPad Pro Variant: Portrait-->
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="700" id="gmap_canvas" src="https://maps.google.com/maps?q=h%C3%A4rensten%20ab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de">webdesign-muenchen-pb.de</a></div><style>.mapouter{text-align:right;height:700px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:700px;width:100%;}</style></div>
+                </div>
+                
+                <div class="google_maps landscape_hidden_for_mobile"> <!--Mobile Landscape-->
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=h%C3%A4rensten%20ab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de">webdesign-muenchen-pb.de</a></div><style>.mapouter{text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!--Kontakt-->
+        
+        <!--Footer-->
+        <div class="footer">
+            <address class="footer_text">
+                <p><em class="bold footer_title">Härensten AB</em></p>
+                <p>Målskog 18,</p>
+                <p>335 91 Gnosjö</p>
+                <p><em>Tel:</em> <span class="tel">072-249 27 12</span></p>
+                <p><em>Email:</em> <a href="mailto:goran@harensten.se">goran@harensten.se</a></p>
+                <p>&copy; <em>2018</em> Härensten AB</p>
+            </address>
+        </div>
+        <!--Footer-->
+    </body>
+</html>

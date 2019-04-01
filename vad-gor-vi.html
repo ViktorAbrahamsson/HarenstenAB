@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Härensten AB</title>
+        
+        <meta charset="utf-8"> <!--Rätt tecken för svenska-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> <!--Anpassat för mobiltelefoner-->
+        
+        <meta name="description" content="">
+        <meta name="keywords" content="Härensten AB,Göran Ericsson,Målskog">
+        <meta name="author" content="Viktor Abrahamsson">
+        
+        <link rel="icon" href="images/harenstenab_icon.ico"> <!--Webbicon-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <!--Font: Roboto-->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> <!--Bootstrap 4.1: CSS-->
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> <!--Bootstrap 4.1-->
+        
+        <link rel="stylesheet" href="main.css"> <!--Main.css-->
+    </head>
+    <body onload="init();"> <!--Load bootstrap 4.1-->
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff; border-bottom: 5px solid #f2b632;"> <!--Nav: Background, boarder-->
+          <a class="navbar-brand ml-5" id="nav_title" href="index.html">
+              <img src="images/harenstenab_logga.jpg" class="loggo_size" alt="Logga">
+          </a> <!--Nav: Title-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--Nav: Listitems-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Hem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="om.html">Om oss</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Vad vi gör<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produkter.html">Produkter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+        <!--Navbar-->
+        
+        <!--Banner-->
+        <div class="banner_vad-gor-vi">
+            <div class="banner_text">
+                <p><em class="banner_text_title">Vad gör vi [Under konstruktion]</em></p>
+            </div>
+        </div>
+        <!--Banner-->
+        
+        <!--Vad gör vi-->
+        <div class="container mt-5">
+            <div class="index_flex">
+                <div class="left_content_vad-gor-vi_desktop">
+                    <div class="index_policy">
+                        <div>
+                            <h1 class="h1_title">Rubrik #1</h1> <!--Rubrik-->
+                            <p> <!--Första stycke-->
+                                Cras ullamcorper, orci sed gravida viverra, nulla leo imperdiet turpis, vitae vulputate elit sem eget mauris. Maecenas tincidunt venenatis metus non porta. Integer tincidunt nulla vitae lorem laoreet, non interdum justo pretium. Vestibulum interdum non diam ac vulputate. In in sapien eleifend, lobortis erat vitae, sodales sem. Nulla dui risus, euismod quis dui quis, ultricies lacinia mauris. Nunc quis turpis nec quam pellentesque tristique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right_content_desktop">
+                    <img class="image_index_desktop" alt="Bild" src="http://via.placeholder.com/350x400">       
+                </div>
+            </div>
+            
+            <div class="index_image"> <!--Översta bilden: 335 x 200-->
+                <img class="image_index_ ipad_landscape" alt="Bild" src="http://via.placeholder.com/320x200">
+            </div>
+            
+            <div class="index_flex">
+                <div class="left_content_desktop">
+                    <div class="index_policy">
+                        <div>
+                            <h1 class="h1_title">Rubrik #2</h1> <!--Rubrik-->
+                            <p> <!--Första stycke-->
+                                Cras ullamcorper, orci sed gravida viverra, nulla leo imperdiet turpis, vitae vulputate elit sem eget mauris. Maecenas tincidunt venenatis metus non porta. Integer tincidunt nulla vitae lorem laoreet, non interdum justo pretium. Vestibulum interdum non diam ac vulputate. In in sapien eleifend, lobortis erat vitae, sodales sem. Nulla dui risus, euismod quis dui quis, ultricies lacinia mauris. Nunc quis turpis nec quam pellentesque tristique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right_content_desktop">
+                    <img class="image_index_desktop" alt="Bild" src="http://via.placeholder.com/350x400">       
+                </div>
+            </div>
+            
+            <div class="index_image"> <!--Översta bilden: 335 x 200-->
+                <img class="image_index_ ipad_landscape" alt="Bild" src="http://via.placeholder.com/320x200">
+            </div>
+        </div>
+        <!--Vad gör vi-->
+        
+        <!--Footer-->
+        <div class="footer">
+            <address class="footer_text">
+                <p><em class="bold footer_title">Härensten AB</em></p>
+                <p>Målskog 18,</p>
+                <p>335 91 Gnosjö</p>
+                <p><em>Tel:</em> <span class="tel">072-249 27 12</span></p>
+                <p><em>Email:</em> <a href="mailto:goran@harensten.se">goran@harensten.se</a></p>
+                <p>&copy; <em>2018</em> Härensten AB</p>
+            </address>
+        </div>
+        <!--Footer-->
+    </body>
+</html>

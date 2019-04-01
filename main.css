@@ -1,0 +1,961 @@
+/*
+    Light Orange: #f2b632
+*/
+
+/*-----------General-----------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+p {
+    margin: 0 auto;
+}
+
+em {
+    color: #f2b632;
+    font-style: normal;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+.h1_title {
+    color: #f2b632;
+    font-weight: 500;
+}
+
+.banner_text {
+    align-self: center;
+    margin-left: 25px;
+    height: 75px;
+    color: #ffffff;
+}
+
+.banner_text_title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.center_x {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.loggo_size {
+    height: 50px;
+}
+
+/*-----------General-----------*/
+
+/*-----------Effects-----------*/
+
+.arbetare a:hover {
+    color: #f2b632;
+    cursor: pointer;
+}
+
+.arbetare a:visited {
+    color: #f2b632;
+}
+
+#kontakta_oss_button {
+    cursor: pointer;
+}
+
+.footer a:visited {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+/*-----------Effects-----------*/
+
+/*-----------Index-----------*/
+.banner_index {
+    height: 550px;
+    display: flex;
+    background-image: url(images/banner3_mobile.jpg); /*--Change image: Banner--*/
+    background-color: #374349;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #f2b632;
+    margin-top: 80px;
+}
+
+.index_content {
+    min-height: 500px;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+}
+
+.index_policy {
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+}
+
+.index_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.image_index_ {
+    margin-bottom: 15px; 
+}
+
+.contact-us-banner {
+    background-image: url(images/kontakta_oss_desktop_v3.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-us-banner_info {
+    align-self: center;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
+    background: rgba(54, 25, 25, .5);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#contact-us-banner_title {
+    color: #ffffff;
+    margin-left: 30px;
+    height: 30px;
+}
+
+#contact-us-banner_p {
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+#kontakta_oss_button_placement {
+    display: flex;
+    justify-content: center;
+}
+
+#kontakta_oss_button {
+    border: none;
+    padding: 1em;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #f2b632;
+    width: 200px;
+}
+/*-----------Index-----------*/
+
+/*-----------Om oss-----------*/
+
+.banner_om {
+    height: 500px;
+    display: flex;
+    background-image: url(images/drone-images/DJI_0281.JPG); /*--Change image: Banner--*/
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #f2b632;
+    background-color: #374349;
+    margin-top: 80px;
+}
+
+#om_oss_content {
+    /*height: 700px;*/
+}
+
+.om_oss_historia {
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    line-height: 27px;
+}
+
+.om_oss_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.image_om_oss_top {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.om_oss_lower_images{
+    height: 220px;
+}
+
+#image_om_oss_left {
+    float: left;
+    margin-top: 15px;
+}
+
+#image_om_oss_right {
+    float: right;
+    margin-top: 15px;
+}
+/*-----------Om oss-----------*/
+
+
+/*-----------Vad vi gör-----------*/
+.banner_vad-gor-vi {
+    height: 500px;
+    display: flex;
+    background-image: url(images/); /*--Change image: Banner--*/
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #f2b632;
+    background-color: #374349;
+    margin-top: 80px;
+}
+
+#vad-gor-vi_content {
+    min-height: 500px;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    line-height: 27px;
+}
+
+.vad-gor-vi_infoblock {
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    line-height: 27px;
+}
+
+.vad-gor-vi_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#image_svarvning {
+    border-radius: 5px;
+}
+
+/*-----------Vad vi gör-----------*/
+
+
+/*-----------Produkter-----------*/
+.banner_produkter {
+    height: 500px;
+    display: flex;
+    background-image: url(images/produktbilder/v2_detalj8.jpg); /*--Change image: Banner--*/
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #f2b632;
+    background-color: #374349;
+    margin-top: 80px;
+}
+
+#produkter_content {
+    min-height: 500px;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    line-height: 27px;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-deck {
+    margin-bottom: 20px;
+}
+
+.produkter_image {
+    border: 3px solid #f2b632;
+    border-bottom: none;
+}
+/*-----------Produkter-----------*/
+
+
+/*-----------Kontakt-----------*/
+
+.banner_kontakt {
+    height: 500px;
+    display: flex;
+    background-image: url(images/banner1.jpg); /*--Change image: Banner--*/
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #f2b632;
+    background-color: #374349;
+    margin-top: 80px;
+}
+
+#kontakt_content {
+    min-height: 500px;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    line-height: 27px;
+}
+
+#kontakt_title {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.kontakt_arbetare {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.arbetare {
+    height: 300px;
+    width: 250px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.arbetare_image {
+    display: flex;
+    justify-content: center;
+}
+
+.arbetare_image_style {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #f2b632;
+    height: 250px;
+    width: 180px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-size: contain;
+    background-size: cover;
+}
+
+.arbetare_titel {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.arbetare_roll {
+    font-size: 15px;
+}
+
+.kontakt_email {
+    font-size: 15px;
+}
+
+.arbetare_kontakt {
+    color: #f2b632;
+}
+
+.arbetare_tel {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.Kontakta_oss {
+    margin-top: 100px;
+}
+
+.kontakta_oss_mobile {
+    text-align: center;
+}
+
+#form_style {
+    margin-top: 30px;
+}
+
+#form_namn {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#form_email {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#form_subject {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#form_message {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+}
+
+#form_submit {
+    width: 100%;
+    height: 50px;
+    background-color: #f2b632;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.google_maps {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*-----------Kontakt-----------*/
+
+/*-----------Footer-----------*/
+.footer {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: #212121;
+    color: #ffffff;
+    border-top: 5px solid #f2b632;
+}
+
+.footer_text {
+    align-self: center;
+    margin-left: 23px;
+    font-size: 17px;
+    height: 200px;
+}
+
+.footer_title {
+    font-size: 25px;
+}
+
+.tel {
+    text-decoration: underline;
+}
+/*-----------Footer-----------*/
+
+/*-----------Profile-----------*/
+.mobile_hidden_images {
+    display: none;
+}
+
+.landscape_hidden_images {
+    display: none;
+}
+
+.right_content_desktop {
+    display: none;
+}
+
+.w1800_display_none {
+    display: none;
+}
+
+@media only screen and (min-device-width: 768px) /*--iPad--*/
+and (orientation: portrait) {
+    
+    body {
+        font-size: 20px;
+    }
+    .mobile_hidden_images {
+        display: none;
+    }
+    
+    #kontakt_title {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+    
+    #gmap_canvas {
+        width: 900px;
+        height: 600px;
+    }
+    
+    .ipad_landscape {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) /*--iPad Pro--*/
+and (orientation: portrait) {
+    
+    body {
+        font-size: 20px;
+    }
+    .mobile_hidden_images {
+        display: none;
+    }
+    
+    #kontakt_title {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+    
+    #gmap_canvas {
+        width: 900px;
+        height: 600px;
+    }
+    
+    .ipad_landscape {
+        margin-right: 10px;
+    }
+}
+
+/*-----------Profile-----------*/
+
+/*-----------Landscape-----------*/
+@media only screen and (min-device-width: 360px) /*--Galaxy S5, Pixel 2, iPhone 5/SE/6/7/8/Plus--*/
+and (orientation: landscape) {
+    .mobile_hidden_images {
+        display: none;
+    }
+    
+    .banner_index {
+        height: 300px;
+    }
+    
+    .banner_om {
+        height: 300px;
+    }
+    
+    .banner_vad-gor-vi {
+        height: 300px;
+    }
+    
+    .banner_produkter {
+        height: 300px;
+    }
+    
+    .banner_kontakt {
+        height: 300px;
+    }
+    
+    #kontakt_title {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+}
+
+@media only screen and (min-device-width: 812px) /*--iPhone X--*/
+and (orientation: landscape) {
+    .mobile_hidden_images {
+        display: none;
+    }
+    
+    .banner_index {
+        height: 300px;
+    }
+    
+    .banner_om {
+        height: 300px;
+    }
+    
+    .banner_vad-gor-vi {
+        height: 300px;
+    }
+    
+    .banner_produkter {
+        height: 300px;
+    }
+    
+    .banner_kontakt {
+        height: 300px;
+    }
+    
+    #kontakt_title {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-device-width: 823px) /*--Pixel 2 XL--*/
+and (orientation: landscape) {
+    .mobile_hidden_images {
+        display: none;
+    }
+    
+    .right_content_desktop {
+        display: none;
+    }
+    
+    .banner_index {
+        height: 300px;
+    }
+    
+    .banner_om {
+        height: 300px;
+    }
+    
+    .banner_vad-gor-vi {
+        height: 300px;
+    }
+    
+    .banner_produkter {
+        height: 300px;
+    }
+    
+    .banner_kontakt {
+        height: 300px;
+    }
+    
+    #kontakt_title {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) /*--iPad--*/
+and (orientation: landscape) {
+    .landscape_hidden_images {
+        display: none;
+    }
+    
+    .banner_index {
+        height: 500px;
+    }
+    
+    .banner_om {
+        height: 500px;
+    }
+    
+    .banner_vad-gor-vi {
+        height: 500px;
+    }
+    
+    .banner_produkter {
+        height: 500px;
+    }
+    
+    .banner_kontakt {
+        height: 500px;
+    }
+    
+    #kontakt_title {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+    
+    .ipad_landscape {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 1100px) /*--Desktop / iPad Pro Landscape--*/
+and (orientation: landscape) {
+    
+    .landscape_hidden_images {
+        display: none;
+    }
+    
+    .w1800_display_none {
+        display: none;
+    }
+    
+    .h1_title {
+        font-size: 50px;
+    }
+    
+    /*--Nav----------------------------------*/
+    
+    .navbar-nav {
+        margin-right: 125px;
+    }
+    
+    .nav-item {
+        width: 100px;
+        text-align: center;
+    }
+    
+    /*--Nav----------------------------------*/
+    
+    .desktop_motto {
+        font-style: italic;
+        font-size: 20px;
+    }
+    
+    /*--Banners----------------------------------*/
+    
+    .banner_index {
+        height: 700px;
+        background-image: url(images/banner3.jpg)
+    }
+    
+    .banner_om {
+        height: 700px;
+    }
+    
+    .banner_vad-gor-vi {
+        height: 700px;
+    }
+    
+    .banner_produkter {
+        height: 700px;
+    }
+    
+    .banner_kontakt {
+        height: 700px;
+    }
+    
+    /*--Banners----------------------------------*/
+    
+    .left_content_desktop {
+        width: 625px;
+        height: 500px;
+        display: flex;
+    }
+    
+    .right_content_desktop {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 40px;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .banner_text {
+        margin-left: 250px;
+        margin-bottom: 120px;
+    }
+    
+    /*--Index----------------------------------*/    
+    
+    .index_content {
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        height: 600px;
+    }
+    
+    .index_flex {
+        display: flex;
+    }
+    
+    .index_policy {
+        margin-top: 50px;
+        width: 600px;
+    }
+    
+    .index_image {
+        display: none;
+    }
+    
+    .image_index_ {
+        width: 250px;
+        height: 200px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .image_index_desktop {
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    /*--contact-us-banner------------------*/
+    .contact-us-banner {
+        height: 400px;
+    }
+    
+    #contact-us-banner_info {
+        width: 600px;
+    }
+    
+    #contact-us-banner_title {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    #contact-us-banner_p {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .banner_text_title {
+        font-size: 60px
+    }
+    
+    /*--contact-us-banner------------------*/
+     
+    .index_content {
+        min-height: 350px;
+    }
+    
+    .index_policy {
+        margin: 0;
+        height: 100px;
+    }
+    
+    /*--Index----------------------------------*/
+    
+    /*--Om----------------------------------*/
+    #om_oss_content {
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 75px;
+        height: 1350px;
+    }
+    
+    .om_oss_flex {
+        display: flex;
+    }
+    
+    .right_content_om_desktop {
+        margin-top: 50px;
+    }
+    /*--Om----------------------------------*/
+    
+    /*--Vad gör vi----------------------------------*/
+    #vad-gor-vi_content {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 75px;
+        height: 600px;
+    }
+    
+    .vad-gor-vi_flex {
+        display: flex;
+    }
+    
+    .right_content_vad-gor-vi_desktop {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .left_content_vad-gor-vi_desktop {
+        height: 300px;
+    }
+    
+    /*--Vad gör vi----------------------------------*/
+
+    /*--Produkter----------------------------------*/
+    .card-deck {
+        margin-top: 50px;
+    }
+    /*--Produkter----------------------------------*/
+    
+    /*--Kontakt----------------------------------*/
+    #kontakt_title {
+        width: 100%;
+    }
+    
+    .arbetare {
+        margin: 15px;
+    }
+    
+    .kontakta_oss_desktop {
+        text-align: center;
+    }
+    
+    #form_style {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    /*--Kontakt----------------------------------*/
+    
+    /*--Footer----------------------------------*/
+    
+    .footer {
+        height: 200px;
+    }
+    
+    .footer_title {
+        font-size: 20px;
+    }
+    
+    .footer_text {
+        font-size: 15px;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    /*--Footer----------------------------------*/
+    
+    }
+    
+@media only screen and (min-device-width: 1700px) /*----*/
+and (orientation: landscape) {
+    .w1800_display_none {
+        display: flex;
+    }
+}
+
+/*-----------Landscape-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
